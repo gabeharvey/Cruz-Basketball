@@ -15,8 +15,8 @@ function PlayerProfile() {
   };
 
   const player = {
-    frontImg: "ai-basketball-placeholder.png",
-    secondImg: "ai-basketball-placeholder.png",
+    frontImg: "mens-basketball-placeholder.png",
+    secondImg: "mens-basketball-placeholder.png",
     name: "Player Bio", 
     bioCategories: [
       { title: "Class", description: "2030" },
@@ -34,7 +34,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5">
         {player.name}
       </Heading>
 
@@ -62,7 +62,7 @@ function PlayerProfile() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#7DF9FF"
+      stroke="#DC143C"
       strokeWidth="2"
       width="40px"
       height="40px"
@@ -88,7 +88,7 @@ function PlayerProfile() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#7DF9FF"
+      stroke="#DC143C"
       strokeWidth="2"
       width="40px"
       height="40px"
@@ -105,7 +105,7 @@ function PlayerProfile() {
           bgSize="cover"
           bgPosition="center"
           borderRadius="12px"
-          borderColor="#7DF9FF"
+          borderColor="#DC143C"
           borderWidth="3px"
           minH="500px"
           minW="350px"
@@ -128,10 +128,10 @@ function PlayerProfile() {
           <Grid gap={4}>
             {player.bioCategories.map((category, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#000000" fontWeight="bold" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+                <Text color="#000000" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="lg">
                   {category.title}
                 </Text>
-                <Text color="#000000" fontFamily="'Raleway', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
+                <Text color="#000000" fontFamily="'Exo 2', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
                   {category.description}
                 </Text>
               </Box>

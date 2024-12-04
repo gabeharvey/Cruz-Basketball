@@ -86,7 +86,7 @@ function StatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" textAlign="center">
         Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">
@@ -100,19 +100,19 @@ function StatTracker() {
           borderWidth="4px"
         >
           <Text 
-            color="#7DF9FF" 
+            color="#DC143C" 
             fontWeight="bold" 
-            fontFamily="'Raleway', sans-serif" 
+            fontFamily="'Exo 2', sans-serif" 
             fontSize="md"
             textAlign="center" 
           >
             Central Catholic Stats
           </Text>
-          <Text color="#7DF9FF">Points: {averagesHS.points}</Text>
-          <Text color="#7DF9FF">Rebounds: {averagesHS.rebounds}</Text>
-          <Text color="#7DF9FF">Assists: {averagesHS.assists}</Text>
-          <Text color="#7DF9FF">Steals: {averagesHS.steals}</Text>
-          <Text color="#7DF9FF">Blocks: {averagesHS.blocks}</Text>
+          <Text color="#DC143C">Points: {averagesHS.points}</Text>
+          <Text color="#DC143C">Rebounds: {averagesHS.rebounds}</Text>
+          <Text color="#DC143C">Assists: {averagesHS.assists}</Text>
+          <Text color="#DC143C">Steals: {averagesHS.steals}</Text>
+          <Text color="#DC143C">Blocks: {averagesHS.blocks}</Text>
         </MotionBox>
 
         <MotionBox
@@ -125,19 +125,19 @@ function StatTracker() {
           borderWidth="4px"
         >
           <Text 
-            color="#7DF9FF" 
+            color="#DC143C" 
             fontWeight="bold" 
-            fontFamily="'Raleway', sans-serif"  
+            fontFamily="'Exo 2', sans-serif"  
             fontSize="md"
             textAlign="center" 
           >
             Elite Club Stats
           </Text>
-          <Text color="#7DF9FF">Points: {averagesTexasHardwork.points}</Text>
-          <Text color="#7DF9FF">Rebounds: {averagesTexasHardwork.rebounds}</Text>
-          <Text color="#7DF9FF">Assists: {averagesTexasHardwork.assists}</Text>
-          <Text color="#7DF9FF">Steals: {averagesTexasHardwork.steals}</Text>
-          <Text color="#7DF9FF">Blocks: {averagesTexasHardwork.blocks}</Text>
+          <Text color="#DC143C">Points: {averagesTexasHardwork.points}</Text>
+          <Text color="#DC143C">Rebounds: {averagesTexasHardwork.rebounds}</Text>
+          <Text color="#DC143C">Assists: {averagesTexasHardwork.assists}</Text>
+          <Text color="#DC143C">Steals: {averagesTexasHardwork.steals}</Text>
+          <Text color="#DC143C">Blocks: {averagesTexasHardwork.blocks}</Text>
         </MotionBox>
       </Flex>
       <MotionBox
@@ -152,26 +152,26 @@ function StatTracker() {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 5, ease: 'easeOut' }}
       >
-        <Heading fontSize="lg" color="#000000" fontFamily="'Lobster Two', sans-serif" mb={4}>
+        <Heading fontSize="lg" color="#2E2E2E" fontFamily="'Russo One', sans-serif" mb={4}>
           Player Stats:
         </Heading>
         {games.length === 0 ? (
-          <Text color="#000000">No games added yet.</Text>
+          <Text color="#2E2E2E">No games added yet.</Text>
         ) : (
           <Grid gap={4}>
             {games.map((game, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px" borderColor="#FF4500">
-                <Text color="#000000" fontWeight="bold" fontFamily="'Lobster Two', sans-serif">
+                <Text color="#2E2E2E" fontWeight="bold" fontFamily="'Russo One', sans-serif">
                   Game {index + 1} - Valentina Cantu:
                 </Text>
-                <Text color="#000000">Team: {game.team}</Text>
-                <Text color="#000000">Opponent: {game.opponent}</Text>
-                <Text color="#000000">Date: {game.date}</Text>
-                <Text color="#000000">Points: {game.points}</Text>
-                <Text color="#000000">Rebounds: {game.rebounds}</Text>
-                <Text color="#000000">Assists: {game.assists}</Text>
-                <Text color="#000000">Steals: {game.steals}</Text>
-                <Text color="#000000">Blocks: {game.blocks}</Text>
+                <Text color="#2E2E2E">Team: {game.team}</Text>
+                <Text color="#2E2E2E">Opponent: {game.opponent}</Text>
+                <Text color="#2E2E2E">Date: {game.date}</Text>
+                <Text color="#2E2E2E">Points: {game.points}</Text>
+                <Text color="#2E2E2E">Rebounds: {game.rebounds}</Text>
+                <Text color="#2E2E2E">Assists: {game.assists}</Text>
+                <Text color="#2E2E2E">Steals: {game.steals}</Text>
+                <Text color="#2E2E2E">Blocks: {game.blocks}</Text>
               </Box>
             ))}
           </Grid>
@@ -194,7 +194,7 @@ function StatTracker() {
       >
         <VStack spacing={4} align="stretch">
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Team
             </FormLabel>
             <Input
@@ -208,7 +208,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Opponent
             </FormLabel>
             <Input
@@ -222,7 +222,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Date
             </FormLabel>
             <Input
@@ -236,7 +236,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Points
             </FormLabel>
             <Input
@@ -250,7 +250,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Rebounds
             </FormLabel>
             <Input
@@ -264,7 +264,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Assists
             </FormLabel>
             <Input
@@ -278,7 +278,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Steals
             </FormLabel>
             <Input
@@ -292,7 +292,7 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Blocks
             </FormLabel>
             <Input
@@ -309,17 +309,17 @@ function StatTracker() {
           <Button
             mt={4}
             bgColor="#FF4500"
-            color=" #000000"
+            color=" #2E2E2E"
             minW="100%"
             maxW="45%"
             alignSelf="center"
-            fontFamily="'Lobster Two', sans-serif"
+            fontFamily="'Russo One', sans-serif"
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
             borderColor="#FF4500"
             borderWidth="3px"
-            _hover={{ borderColor: '#7DF9FF' }}
+            _hover={{ borderColor: '#DC143C' }}
             onClick={handleAddGame}
           >
             Add Game

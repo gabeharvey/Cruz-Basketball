@@ -25,7 +25,7 @@ function Academics() {
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5">
         Academics
       </Heading>
 
@@ -33,7 +33,7 @@ function Academics() {
         w={{ base: '80%', md: '300px' }} 
         h="auto"
         m="5"
-        bgColor="#7DF9FF"
+        bgColor="#DC143C"
         borderRadius="12px"
         borderWidth="4px"
         borderColor="#FF4500"
@@ -74,11 +74,11 @@ function Academics() {
           transition={{ duration: 2, ease: 'easeOut' }}
         >
           <Link
-            fontFamily="'Lobster Two', sans-serif"
+            fontFamily="'Russo One', sans-serif"
             fontWeight="bold"
             href="/path-to-transcripts"
             isExternal
-            color="#000000"
+            color="#2E2E2E"
             fontSize="lg"
             p={3}
             _hover={{ color: '#505050', textDecoration: 'underline' }}
@@ -109,12 +109,12 @@ function Academics() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 2, ease: 'easeOut' }}
         >
-          <Text fontWeight="bold" fontSize="lg" color="#000000" mb="2" textAlign="center">
+          <Text fontWeight="bold" fontSize="lg" color="#2E2E2E" mb="2" textAlign="center">
             Academic Achievements
           </Text>
-          <VStack spacing={2} align="start" fontFamily="'Raleway', sans-serif" fontWeight="bold">
+          <VStack spacing={2} align="start" fontFamily="'Exo 2', sans-serif" fontWeight="bold">
             {academicAchievements.map((achievement, index) => (
-              <Text key={index} color="#000000">
+              <Text key={index} color="#2E2E2E">
                 - {achievement}
               </Text>
             ))}

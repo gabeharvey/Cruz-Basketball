@@ -66,14 +66,14 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#7DF9FF"
+            bgColor="#DC143C"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
             position="relative"
             boxShadow="lg"
             mb="10px"
-            fontFamily="'Lobster Two', sans-serif"
+            fontFamily="'Russo One', sans-serif"
         >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
@@ -88,8 +88,8 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}
                         fontSize={{ base: '3xl', md: '4xl' }}
-                        fontFamily="'Lobster Two', sans-serif"
-                        color="#000000"
+                        fontFamily="'Russo One', sans-serif"
+                        color="#2E2E2E"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
@@ -103,19 +103,19 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#000000' }}
+                                whileHover={{ scale: 1.2, color: '#2E2E2E' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#000000' }}
+                                style={{ color: '#2E2E2E' }}
                             >
                                 <CloseIcon />
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#000000' }}
+                                whileHover={{ scale: 1.2, color: '#2E2E2E' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#000000' }}
+                                style={{ color: '#2E2E2E' }}
                             >
                                 <CgMenuGridO />
                             </motion.div>
@@ -151,8 +151,8 @@ const Navbar = () => {
                             duration={500}
                             fontSize="md"
                             fontWeight="extrabold"
-                            fontFamily="'Raleway', sans-serif"
-                            color="#000000"
+                            fontFamily="'Exo 2', sans-serif"
+                            color="#2E2E2E"
                             position="relative"
                             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FF4500' }}
                             _after={{
@@ -182,11 +182,11 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#7DF9FF"
+                            bgColor="#DC143C"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
-                            color="#000000"
+                            color="#2E2E2E"
                             height="100%"
                             boxShadow="0 0 20px rgba(0, 0, 0, 0.9)"
                         >
@@ -196,7 +196,7 @@ const Navbar = () => {
                                 </Text>
                                 <IconButton
                                     icon={<CloseIcon w={6} h={6} />}
-                                    color="#000000"
+                                    color="#2E2E2E"
                                     aria-label="Close Menu"
                                     variant="outline"
                                     onClick={onClose}
@@ -220,9 +220,9 @@ const Navbar = () => {
                                         offset={-100}
                                         duration={500}
                                         fontSize="lg"
-                                        fontFamily="'Raleway', system-ui"
+                                        fontFamily="'Exo 2', sans-serif"
                                         fontWeight="bold"
-                                        color="#000000"
+                                        color="#2E2E2E"
                                         position="relative"
                                         _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FF4500' }}
                                         style={{ cursor: 'pointer' }}

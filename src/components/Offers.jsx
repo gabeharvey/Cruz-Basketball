@@ -26,7 +26,7 @@ function Offers() {
       bgRepeat="no-repeat"
       mt={12}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif" mb="5" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5" textAlign="center">
         Scholarship Offers
       </Heading>
       <Flex
@@ -64,10 +64,10 @@ function Offers() {
               mr={4}
             />
             <Box>
-              <Text color="#000000" fontWeight="bold" fontFamily="'Lobster Two', sans-serif" fontSize="lg">
+              <Text color="#000000" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="lg">
                 {offer.schoolName}
               </Text>
-              <Text color="#000000" fontFamily="'Raleway', sans-serif" fontSize="md" fontWeight="semibold" mt={1}>
+              <Text color="#000000" fontFamily="'Exo 2', sans-serif" fontSize="md" fontWeight="semibold" mt={1}>
                 {offer.description}
               </Text>
             </Box>

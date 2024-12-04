@@ -35,7 +35,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-            borderColor="#FF4500"
+            borderColor="#DC143C"
             borderWidth="3px"
             w="100%"
             h="100%"
@@ -43,14 +43,14 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             flexDirection="column"
             alignItems="center"
             justifyContent="flex-end"
-            boxShadow="0 0 25px rgba(255, 69, 0, 0.9), 0 0 50px rgba(255, 140, 0, 0.7)"
+            boxShadow="0 0 25px rgba(220, 20, 60, 0.9), 0 0 50px rgba(178, 34, 34, 0.7)"
             >
             <Text
               bg="rgba(0, 0, 0, 0)"
               w="100%"
               color="#000000"
               fontSize="2xl"
-              fontFamily="'Lobster Two', sans-serif"
+              fontFamily="'Russo One', sans-serif"
               textAlign="center"
               p={2}
               borderBottomRadius="12px"
@@ -73,7 +73,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            boxShadow="0 0 25px rgba(0, 255, 255, 0.9), 0 0 50px rgba(7, 107, 255, 0.7)"
+            boxShadow="0 0 25px rgba(125, 249, 255, 0.9), 0 0 50px rgba(7, 107, 255, 0.7)"
             transform="rotateY(180deg)"
             p={5}
             >
@@ -85,7 +85,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   <Text
     mt={2}
     color="#F8F8FF"
-    fontFamily="'Raleway', sans-serif"
+    fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
     textAlign="center"
@@ -95,7 +95,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     color="#F8F8FF"
-    fontFamily="'Raleway', sans-serif"
+    fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
     textAlign="center"
@@ -106,7 +106,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   <Text
     mt={4}
     color="#F8F8FF"
-    fontFamily="'Raleway', sans-serif"
+    fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
     textAlign="center"
@@ -117,7 +117,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   <Text
     mt={4}
     color="#F8F8FF"
-    fontFamily="'Lobster Two', sans-serif"
+    fontFamily="'Russo One', sans-serif"
     fontWeight="bold"
     fontSize="md"
     textAlign="center"
@@ -128,7 +128,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   <Text
     mt={2}
     color="#F8F8FF"
-    fontFamily="'Raleway', sans-serif"
+    fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
     textAlign="center"
@@ -148,56 +148,56 @@ function PlayerCards() {
 
   const players = [
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu is a standout on the court, known for his clutch shooting and leadership.",
       funFact: "Loves to watch highlight reels of his favorite NBA players.",
       cardNumber: 1,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu has a knack for sinking three-pointers in high-pressure situations.",
       funFact: "Is an avid collector of vintage basketball cards.",
       cardNumber: 2,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu is a fast break specialist, always looking to convert steals into easy points.",
       funFact: "Loves playing pick-up games at the local gym.",
       cardNumber: 3,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu's defense is unmatched, with an impressive steals per game ratio.",
       funFact: "Has a secret love for playing the piano.",
       cardNumber: 4,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu's athleticism allows his to dominate both ends of the court, excelling at both offense and defense.",
       funFact: "Enjoys watching classic basketball games from the 90s.",
       cardNumber: 5,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu is a skilled ball handler, able to create his own shot when needed.",
       funFact: "Aspires to become a professional coach in the future.",
       cardNumber: 6,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu brings intensity to every game, pushing hisself and his teammates to the limit.",
       funFact: "Loves watching buzzer-beaters and clutch moments in basketball.",
       cardNumber: 7,
     },
     {
-      frontImg: "ai-basketball-placeholder.png",
+      frontImg: "mens-basketball-placeholder.png",
       name: "Cruz Cantu",
       bio: "Cruz Cantu excels in both transition offense and defense, always being in the right place at the right time.",
       funFact: "Passionate about mentoring younger players.",
@@ -220,10 +220,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif">
         Player Cards
       </Text>
-      <Text fontSize="xl" fontWeight="medium" color="#7DF9FF" fontFamily="'Lobster Two', sans-serif">
+      <Text fontSize="xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif">
         Click on a card to see more info
       </Text>
 
