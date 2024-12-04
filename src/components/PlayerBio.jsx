@@ -21,7 +21,7 @@ function PlayerProfile() {
     bioCategories: [
       { title: "Class", description: "2030" },
       { title: "Position", description: "PF/C" },
-      { title: "Height", description: "5'10\"" },
+      { title: "Height", description: "5'11\"" },
       { title: "Weight", description: "145 lbs" },
       { title: "Place of Birth", description: "San Antonio, TX" },
       { title: "High School", description: "Central Catholic" },
