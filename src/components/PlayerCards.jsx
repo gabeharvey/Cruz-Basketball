@@ -61,7 +61,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
         </Box>
 
         <Box
-            bgGradient="linear(to-t, rgba(0, 255, 255, 0.7), rgba(0, 191, 255, 0.8), rgba(72, 61, 139, 0.6), rgba(7, 107, 255, 0.8))"
+            bgGradient="linear(to-t, rgba(90, 125, 154, 0.7), rgba(70, 100, 130, 0.8), rgba(50, 75, 100, 0.6), rgba(30, 50, 80, 0.8))"
             position="absolute"
             style={{ backfaceVisibility: 'hidden' }}
             w="100%"
