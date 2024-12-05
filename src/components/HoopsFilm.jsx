@@ -9,7 +9,7 @@ function VideoCard({ videoSrc, title, description }) {
         h="100%"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#DC143C"
+        borderColor="#FAF0E6"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         overflow="hidden"
         bgColor="#505050"
@@ -30,11 +30,11 @@ function VideoCard({ videoSrc, title, description }) {
             }}
           />
         </Box>
-        <Box p={3} textAlign="center" bgColor="#F8F8FF" h="30%">
-          <Text fontSize="2xl" fontWeight="semibold" color="#000000" fontFamily="'Russo One', sans-serif">
+        <Box p={3} textAlign="center" bgColor="#FAF0E6" h="30%">
+          <Text fontSize="2xl" fontWeight="semibold" color="#2E2E2E" fontFamily="'Russo One', sans-serif">
             {title}
           </Text>
-          <Text mt={2} fontSize="lg" fontWeight="bold" color="#000000" fontFamily="'Exo 2', sans-serif">
+          <Text mt={2} fontSize="lg" fontWeight="bold" color="#2E2E2E" fontFamily="'Exo 2', sans-serif">
             {description}
           </Text>
         </Box>
@@ -102,7 +102,7 @@ function HoopsFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif">
         Hoops Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">

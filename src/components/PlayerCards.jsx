@@ -48,7 +48,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             <Text
               bg="rgba(0, 0, 0, 0)"
               w="100%"
-              color="#000000"
+              color="#2E2E2E"
               fontSize="2xl"
               fontFamily="'Russo One', sans-serif"
               textAlign="center"
@@ -84,7 +84,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
 
   <Text
     mt={2}
-    color="#F8F8FF"
+    color="#FAF0E6"
     fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -94,7 +94,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
     Field Goal Percentage: .450
   </Text>
   <Text
-    color="#F8F8FF"
+    color="#FAF0E6"
     fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -105,7 +105,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={4}
-    color="#F8F8FF"
+    color="#FAF0E6"
     fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -116,7 +116,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={4}
-    color="#F8F8FF"
+    color="#FAF0E6"
     fontFamily="'Russo One', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -127,7 +127,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
   </Text>
   <Text
     mt={2}
-    color="#F8F8FF"
+    color="#FAF0E6"
     fontFamily="'Exo 2', sans-serif"
     fontWeight="bold"
     fontSize="md"
@@ -220,10 +220,10 @@ function PlayerCards() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif">
         Player Cards
       </Text>
-      <Text fontSize="xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif">
+      <Text fontSize="xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif">
         Click on a card to see more info
       </Text>
 

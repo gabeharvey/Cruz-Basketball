@@ -5,11 +5,11 @@ const MotionBox = motion.create(Box);
 
 function Academics() {
   const academicAchievements = [
-    "Graduated with Honors from Incarnate Word",
+    "Graduated with Honors from Central Catholic",
     "Dean's List for 8 semesters",
     "Recipient of the Academic Excellence Scholarship",
     "Completed a major in Computer Science with a focus on AI",
-    "Co-Founder of the Women in Tech Club at Incarnate Word",
+    "Co-Founder of the Women in Tech Club at Central Catholic",
     "Volunteered as a mentor for aspiring computer scientists"
   ];
 
@@ -25,7 +25,7 @@ function Academics() {
       bgPosition="center"
       bgRepeat="no-repeat"
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif" mb="5">
         Academics
       </Heading>
 
@@ -33,10 +33,10 @@ function Academics() {
         w={{ base: '80%', md: '300px' }} 
         h="auto"
         m="5"
-        bgColor="#DC143C"
+        bgColor="#FAF0E6"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#FF4500"
+        borderColor="#FAF0E6"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={0} 
         display="flex"
@@ -61,10 +61,10 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="120px"
           m="5"
-          bgColor="#F8F8FF"
+          bgColor="#FAF0E6"
           borderRadius="12px"
           borderWidth="4px"
-          borderColor="#FF4500"
+          borderColor="#DC143C"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={4}
           display="flex"
@@ -81,7 +81,7 @@ function Academics() {
             color="#2E2E2E"
             fontSize="lg"
             p={3}
-            _hover={{ color: '#505050', textDecoration: 'underline' }}
+            _hover={{ color: '#DC143C', textDecoration: 'underline' }}
             textAlign="center" 
             width="100%" 
             display="flex"
@@ -96,10 +96,10 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="auto"
           m="5"
-          bgColor="#F8F8FF"
+          bgColor="#FAF0E6"
           borderRadius="12px"
           borderWidth="4px"
-          borderColor="#FF4500"
+          borderColor="#DC143C"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={4}
           display="flex"

@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color=" #DC143C" fontFamily="'Russo One', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif">
         Contact Us
       </Heading>
       
@@ -26,7 +26,7 @@ function Contact() {
         bgImage="linear-gradient(-45deg, #38393d 25%, transparent 25%, transparent 50%, #38393d 50%, #38393d 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#FF4500"
+        borderColor="#FAF0E6"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -36,44 +36,44 @@ function Contact() {
       >
         <Grid gap={4}>
           <FormControl id="name">
-            <FormLabel color=" #DC143C" fontFamily="'Russo One', sans-serif">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif">
               Name
             </FormLabel>
             <Input
               placeholder="Your Name"
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38383d"
               borderRadius="8px"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               _placeholder={{ color: 'gray.500' }}
             />
           </FormControl>
 
           <FormControl id="email">
-            <FormLabel color=" #DC143C" fontFamily="'Russo One', sans-serif">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif">
               Email
             </FormLabel>
             <Input
               type="email"
               placeholder="Your Email"
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
               borderRadius="8px"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               _placeholder={{ color: 'gray.500' }}
             />
           </FormControl>
 
           <FormControl id="message">
-            <FormLabel color=" #DC143C" fontFamily="'Russo One', sans-serif">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif">
               Message
             </FormLabel>
             <Textarea
               placeholder="Your Message"
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
               borderRadius="8px"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               _placeholder={{ color: 'gray.500' }}
               rows={4}
             />
@@ -81,8 +81,8 @@ function Contact() {
 
           <Button
             mt={4}
-            bgColor="#FF4500"
-            color=" #000000"
+            bgColor="#DC143C"
+            color="#FAF0E6"
             minW="100%"
             maxW="45%"
             alignSelf="center"
@@ -90,9 +90,9 @@ function Contact() {
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#FF4500"
+            borderColor="#DC143C"
             borderWidth="3px"
-            _hover={{ borderColor: '#DC143C' }}
+            _hover={{ borderColor: '#FAF0E6' }}
           >
             Submit
           </Button>

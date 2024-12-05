@@ -34,7 +34,7 @@ function PlayerProfile() {
       p={6}
       mt={12} 
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif" mb="5">
         {player.name}
       </Heading>
 
@@ -62,7 +62,7 @@ function PlayerProfile() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#DC143C"
+      stroke="#FAF0E6"
       strokeWidth="2"
       width="40px"
       height="40px"
@@ -88,7 +88,7 @@ function PlayerProfile() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#DC143C"
+      stroke="#FAF0E6"
       strokeWidth="2"
       width="40px"
       height="40px"
@@ -105,7 +105,7 @@ function PlayerProfile() {
           bgSize="cover"
           bgPosition="center"
           borderRadius="12px"
-          borderColor="#DC143C"
+          borderColor="#FAF0E6"
           borderWidth="3px"
           minH="500px"
           minW="350px"
@@ -116,22 +116,22 @@ function PlayerProfile() {
           h="700px"
           minW="320px"
           m="5"
-          bgColor="#F8F8FF"
-          bgImage="linear-gradient(-45deg, #F8F8FF 25%, transparent 25%, transparent 50%, #F8F8FF 50%, #F8F8FF 75%, transparent 75%, transparent)"
+          bgColor="#FAF0E6"
+          bgImage="linear-gradient(-45deg, #FAF0E6 25%, transparent 25%, transparent 50%, #FAF0E6 50%, #FAF0E6 75%, transparent 75%, transparent)"
           bgSize="1px 1px"
           borderRadius="12px"
           borderWidth="5px"
-          borderColor="#FF4500"
+          borderColor="#DC143C"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={6}
         >
           <Grid gap={4}>
             {player.bioCategories.map((category, index) => (
               <Box key={index} p={3} bgColor="transparent" borderRadius="8px">
-                <Text color="#000000" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="lg">
+                <Text color="#2E2E2E" fontWeight="bold" fontFamily="'Russo One', sans-serif" fontSize="lg">
                   {category.title}
                 </Text>
-                <Text color="#000000" fontFamily="'Exo 2', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
+                <Text color="#2E2E2E" fontFamily="'Exo 2', sans-serif" fontSize="lg" fontWeight="semibold" mt={1}>
                   {category.description}
                 </Text>
               </Box>
@@ -144,7 +144,7 @@ function PlayerProfile() {
               aria-label="Facebook"
               icon={<FaFacebookF />}
               variant="ghost"
-              color="#000000" 
+              color="#2E2E2E" 
               fontSize="24px"
               _hover={{ color: '#0056b3' }} 
               _active={{ bg: 'transparent' }}
@@ -156,7 +156,7 @@ function PlayerProfile() {
               aria-label="Instagram"
               icon={<FaInstagram />}
               variant="ghost"
-              color="#000000" 
+              color="#2E2E2E" 
               fontSize="24px"
               _hover={{ color: '#e1306c' }} 
               _active={{ bg: 'transparent' }}
@@ -168,7 +168,7 @@ function PlayerProfile() {
               aria-label="Snapchat"
               icon={<FaSnapchatGhost />}
               variant="ghost"
-              color="#000000" 
+              color="#2E2E2E" 
               fontSize="24px"
               _hover={{ color: '#fffc00' }} 
               _active={{ bg: 'transparent' }}
@@ -180,7 +180,7 @@ function PlayerProfile() {
               aria-label="YouTube"
               icon={<FaYoutube />}
               variant="ghost"
-              color="#000000" 
+              color="#2E2E2E" 
               fontSize="24px"
               _hover={{ color: '#c4302b' }} 
               _active={{ bg: 'transparent' }}

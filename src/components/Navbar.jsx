@@ -66,7 +66,7 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#DC143C"
+            bgColor="#FAF0E6"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
@@ -103,7 +103,7 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#2E2E2E' }}
+                                whileHover={{ scale: 1.2, color: '#DC143C' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
                                 style={{ color: '#2E2E2E' }}
@@ -112,7 +112,7 @@ const Navbar = () => {
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#2E2E2E' }}
+                                whileHover={{ scale: 1.2, color: '#DC143C' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
                                 style={{ color: '#2E2E2E' }}
@@ -154,7 +154,7 @@ const Navbar = () => {
                             fontFamily="'Exo 2', sans-serif"
                             color="#2E2E2E"
                             position="relative"
-                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FF4500' }}
+                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#DC143C' }}
                             _after={{
                                 content: '""',
                                 position: 'absolute',
@@ -182,7 +182,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#DC143C"
+                            bgColor="#FAF0E6"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
@@ -224,7 +224,7 @@ const Navbar = () => {
                                         fontWeight="bold"
                                         color="#2E2E2E"
                                         position="relative"
-                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FF4500' }}
+                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#DC143C' }}
                                         style={{ cursor: 'pointer' }}
                                     >
                                         {text}

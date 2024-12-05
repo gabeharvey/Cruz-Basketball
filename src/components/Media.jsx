@@ -17,7 +17,7 @@ function Media() {
 
   return (
     <VStack spacing={10} p={6} mt={12} align="center"> 
-      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" mb="5" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif" mb="5" textAlign="center">
         Media Coverage
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
@@ -27,10 +27,10 @@ function Media() {
             w={{ base: '90%', md: '500px' }}
             h="120px"
             m="5"
-            bgColor="#F8F8FF"
+            bgColor="#FAF0E6"
             borderRadius="12px"
             borderWidth="4px"
-            borderColor="#FF4500"
+            borderColor="#DC143C"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"
@@ -42,11 +42,11 @@ function Media() {
             <Link
               href={article.url}
               isExternal
-              color="#000000"
+              color="#2E2E2E"
               fontWeight="bold"
               fontSize="lg" 
               p={3} 
-              _hover={{ color: '#505050', textDecoration: 'underline' }}
+              _hover={{ color: '#DC143C', textDecoration: 'underline' }}
             >
               {article.title}
             </Link>

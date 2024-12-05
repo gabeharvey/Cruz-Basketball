@@ -86,7 +86,7 @@ function StatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="4xl" fontWeight="medium" color="#DC143C" fontFamily="'Russo One', sans-serif" textAlign="center">
+      <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif" textAlign="center">
         Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">
@@ -96,11 +96,11 @@ function StatTracker() {
           borderRadius="12px"
           p={4}
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          borderColor="#FF4500"
+          borderColor="#FAF0E6"
           borderWidth="4px"
         >
           <Text 
-            color="#DC143C" 
+            color="#FAF0E6" 
             fontWeight="bold" 
             fontFamily="'Exo 2', sans-serif" 
             fontSize="md"
@@ -108,11 +108,11 @@ function StatTracker() {
           >
             Central Catholic Stats
           </Text>
-          <Text color="#DC143C">Points: {averagesHS.points}</Text>
-          <Text color="#DC143C">Rebounds: {averagesHS.rebounds}</Text>
-          <Text color="#DC143C">Assists: {averagesHS.assists}</Text>
-          <Text color="#DC143C">Steals: {averagesHS.steals}</Text>
-          <Text color="#DC143C">Blocks: {averagesHS.blocks}</Text>
+          <Text color="#FAF0E6">Points: {averagesHS.points}</Text>
+          <Text color="#FAF0E6">Rebounds: {averagesHS.rebounds}</Text>
+          <Text color="#FAF0E6">Assists: {averagesHS.assists}</Text>
+          <Text color="#FAF0E6">Steals: {averagesHS.steals}</Text>
+          <Text color="#FAF0E6">Blocks: {averagesHS.blocks}</Text>
         </MotionBox>
 
         <MotionBox
@@ -121,11 +121,11 @@ function StatTracker() {
           borderRadius="12px"
           p={4}
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          borderColor="#FF4500"
+          borderColor="#FAF0E6"
           borderWidth="4px"
         >
           <Text 
-            color="#DC143C" 
+            color="#FAF0E6" 
             fontWeight="bold" 
             fontFamily="'Exo 2', sans-serif"  
             fontSize="md"
@@ -133,18 +133,18 @@ function StatTracker() {
           >
             Elite Club Stats
           </Text>
-          <Text color="#DC143C">Points: {averagesTexasHardwork.points}</Text>
-          <Text color="#DC143C">Rebounds: {averagesTexasHardwork.rebounds}</Text>
-          <Text color="#DC143C">Assists: {averagesTexasHardwork.assists}</Text>
-          <Text color="#DC143C">Steals: {averagesTexasHardwork.steals}</Text>
-          <Text color="#DC143C">Blocks: {averagesTexasHardwork.blocks}</Text>
+          <Text color="#FAF0E6">Points: {averagesTexasHardwork.points}</Text>
+          <Text color="#FAF0E6">Rebounds: {averagesTexasHardwork.rebounds}</Text>
+          <Text color="#FAF0E6">Assists: {averagesTexasHardwork.assists}</Text>
+          <Text color="#FAF0E6">Steals: {averagesTexasHardwork.steals}</Text>
+          <Text color="#FAF0E6">Blocks: {averagesTexasHardwork.blocks}</Text>
         </MotionBox>
       </Flex>
       <MotionBox
         w={{ base: '90%', md: '600px' }}
-        bgColor="#F8F8FF"
+        bgColor="#FAF0E6"
         borderRadius="12px"
-        borderColor="#FF4500"
+        borderColor="#DC143C"
         borderWidth="5px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -160,9 +160,9 @@ function StatTracker() {
         ) : (
           <Grid gap={4}>
             {games.map((game, index) => (
-              <Box key={index} p={3} bgColor="transparent" borderRadius="8px" borderColor="#FF4500">
+              <Box key={index} p={3} bgColor="transparent" borderRadius="8px" borderColor="#DC143C">
                 <Text color="#2E2E2E" fontWeight="bold" fontFamily="'Russo One', sans-serif">
-                  Game {index + 1} - Valentina Cantu:
+                  Game {index + 1} - Cruz Cantu:
                 </Text>
                 <Text color="#2E2E2E">Team: {game.team}</Text>
                 <Text color="#2E2E2E">Opponent: {game.opponent}</Text>
@@ -184,7 +184,7 @@ function StatTracker() {
         bgImage="linear-gradient(-45deg, #38393d 25%, transparent 25%, transparent 50%, #38393d 50%, #38393d 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#FF4500"
+        borderColor="#FAF0E6"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -194,13 +194,13 @@ function StatTracker() {
       >
         <VStack spacing={4} align="stretch">
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Team
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={gameInfo.team}
               name="team"
               onChange={handleGameInfoChange}
@@ -208,13 +208,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Opponent
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={gameInfo.opponent}
               name="opponent"
               onChange={handleGameInfoChange}
@@ -222,13 +222,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Date
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={gameInfo.date}
               name="date"
               onChange={handleGameInfoChange}
@@ -236,13 +236,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Points
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={stats.points}
               name="points"
               onChange={handleInputChange}
@@ -250,13 +250,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Rebounds
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={stats.rebounds}
               name="rebounds"
               onChange={handleInputChange}
@@ -264,13 +264,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Assists
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={stats.assists}
               name="assists"
               onChange={handleInputChange}
@@ -278,13 +278,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Steals
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={stats.steals}
               name="steals"
               onChange={handleInputChange}
@@ -292,13 +292,13 @@ function StatTracker() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel color="#DC143C" fontFamily="'Russo One', sans-serif" fontSize="lg">
+            <FormLabel color="#FAF0E6" fontFamily="'Russo One', sans-serif" fontSize="lg">
               Blocks
             </FormLabel>
             <Input
-              bgColor="#F8F8FF"
+              bgColor="#FAF0E6"
               color="#38393d"
-              borderColor="#FF4500"
+              borderColor="#FAF0E6"
               value={stats.blocks}
               name="blocks"
               onChange={handleInputChange}
@@ -308,8 +308,8 @@ function StatTracker() {
 
           <Button
             mt={4}
-            bgColor="#FF4500"
-            color=" #2E2E2E"
+            bgColor="#DC143C"
+            color="#FAF0E6"
             minW="100%"
             maxW="45%"
             alignSelf="center"
@@ -317,9 +317,9 @@ function StatTracker() {
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#FF4500"
+            borderColor="#DC143C"
             borderWidth="3px"
-            _hover={{ borderColor: '#DC143C' }}
+            _hover={{ borderColor: '#FAF0E6' }}
             onClick={handleAddGame}
           >
             Add Game
