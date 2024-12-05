@@ -46,7 +46,7 @@ function Offers() {
             bgSize="1px 1px"
             borderRadius="12px"
             borderWidth="5px"
-            borderColor="#DC143C"
+            borderColor="#5A7D9A"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
             p={4}
             display="flex"

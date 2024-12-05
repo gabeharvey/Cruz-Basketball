@@ -103,7 +103,7 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#DC143C' }}
+                                whileHover={{ scale: 1.2, color: '#5A7D9A' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
                                 style={{ color: '#2E2E2E' }}
@@ -112,7 +112,7 @@ const Navbar = () => {
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#DC143C' }}
+                                whileHover={{ scale: 1.2, color: '#5A7D9A' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
                                 style={{ color: '#2E2E2E' }}
@@ -154,7 +154,7 @@ const Navbar = () => {
                             fontFamily="'Exo 2', sans-serif"
                             color="#2E2E2E"
                             position="relative"
-                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#DC143C' }}
+                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#5A7D9A' }}
                             _after={{
                                 content: '""',
                                 position: 'absolute',
@@ -224,7 +224,7 @@ const Navbar = () => {
                                         fontWeight="bold"
                                         color="#2E2E2E"
                                         position="relative"
-                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#DC143C' }}
+                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#5A7D9A' }}
                                         style={{ cursor: 'pointer' }}
                                     >
                                         {text}

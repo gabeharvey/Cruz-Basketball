@@ -144,7 +144,7 @@ function StatTracker() {
         w={{ base: '90%', md: '600px' }}
         bgColor="#FAF0E6"
         borderRadius="12px"
-        borderColor="#DC143C"
+        borderColor="#5A7D9A"
         borderWidth="5px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -160,7 +160,7 @@ function StatTracker() {
         ) : (
           <Grid gap={4}>
             {games.map((game, index) => (
-              <Box key={index} p={3} bgColor="transparent" borderRadius="8px" borderColor="#DC143C">
+              <Box key={index} p={3} bgColor="transparent" borderRadius="8px" borderColor="#5A7D9A">
                 <Text color="#2E2E2E" fontWeight="bold" fontFamily="'Russo One', sans-serif">
                   Game {index + 1} - Cruz Cantu:
                 </Text>
@@ -308,7 +308,7 @@ function StatTracker() {
 
           <Button
             mt={4}
-            bgColor="#DC143C"
+            bgColor="#5A7D9A"
             color="#FAF0E6"
             minW="100%"
             maxW="45%"
@@ -317,7 +317,7 @@ function StatTracker() {
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#DC143C"
+            borderColor="#5A7D9A"
             borderWidth="3px"
             _hover={{ borderColor: '#FAF0E6' }}
             onClick={handleAddGame}

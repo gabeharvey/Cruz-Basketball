@@ -64,7 +64,7 @@ function Academics() {
           bgColor="#FAF0E6"
           borderRadius="12px"
           borderWidth="4px"
-          borderColor="#DC143C"
+          borderColor="#5A7D9A"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={4}
           display="flex"
@@ -81,7 +81,7 @@ function Academics() {
             color="#2E2E2E"
             fontSize="lg"
             p={3}
-            _hover={{ color: '#DC143C', textDecoration: 'underline' }}
+            _hover={{ color: '#5A7D9A', textDecoration: 'underline' }}
             textAlign="center" 
             width="100%" 
             display="flex"
@@ -99,7 +99,7 @@ function Academics() {
           bgColor="#FAF0E6"
           borderRadius="12px"
           borderWidth="4px"
-          borderColor="#DC143C"
+          borderColor="#5A7D9A"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
           p={4}
           display="flex"

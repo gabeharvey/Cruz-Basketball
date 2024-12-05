@@ -81,7 +81,7 @@ function Contact() {
 
           <Button
             mt={4}
-            bgColor="#DC143C"
+            bgColor="#5A7D9A"
             color="#FAF0E6"
             minW="100%"
             maxW="45%"
@@ -90,7 +90,7 @@ function Contact() {
             fontWeight="medium"
             fontSize="xl"
             borderRadius="8px"
-            borderColor="#DC143C"
+            borderColor="#5A7D9A"
             borderWidth="3px"
             _hover={{ borderColor: '#FAF0E6' }}
           >

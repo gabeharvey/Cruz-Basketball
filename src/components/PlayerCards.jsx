@@ -35,7 +35,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-            borderColor="#DC143C"
+            borderColor="#5A7D9A"
             borderWidth="3px"
             w="100%"
             h="100%"
@@ -43,7 +43,7 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             flexDirection="column"
             alignItems="center"
             justifyContent="flex-end"
-            boxShadow="0 0 25px rgba(220, 20, 60, 0.9), 0 0 50px rgba(178, 34, 34, 0.7)"
+            boxShadow="0 0 25px rgba(90, 125, 154, 0.9), 0 0 50px rgba(70, 100, 130, 0.7)"
             >
             <Text
               bg="rgba(0, 0, 0, 0)"
@@ -67,13 +67,13 @@ function Card({ frontImg, name, bio, funFact, cardNumber, flipSound }) {
             w="100%"
             h="100%"
             borderRadius="12px"
-            borderColor="#7DF9FF"
+            borderColor="#FAF0E6"
             borderWidth="3px"
             display="flex"
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            boxShadow="0 0 25px rgba(125, 249, 255, 0.9), 0 0 50px rgba(7, 107, 255, 0.7)"
+            boxShadow="0 0 25px rgba(250, 240, 230, 0.9), 0 0 50px rgba(245, 235, 220, 0.7)"
             transform="rotateY(180deg)"
             p={5}
             >
