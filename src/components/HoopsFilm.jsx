@@ -78,7 +78,7 @@ function HoopsFilm() {
     {
       videoSrc: "../video7.mp4",
       title: "All-Star Highlights",
-      description: "Elite Game Moments",
+      description: "Elite Moments",
     },
     {
       videoSrc: "../video8.mp4",
