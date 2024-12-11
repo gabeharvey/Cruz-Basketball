@@ -98,7 +98,7 @@ function PlayerProfile() {
   </button>
 )}
 
-      <audio ref={audioRef} src="rap-1.mp3" preload="auto" />
+      <audio ref={audioRef} src="Flex-Song.mp3" preload="auto" />
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
         <Box
           bgImage={`url(${player.frontImg})`} 
