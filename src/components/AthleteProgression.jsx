@@ -144,6 +144,7 @@ const AthleteProgression = () => {
         p={6}
         bgColor="#38393D"
         mb={8}
+        boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
       >
         <Grid gap={4} templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}>
           <FormControl>
