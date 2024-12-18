@@ -6,6 +6,7 @@ import HoopsFilm from './HoopsFilm';
 import Offers from './Offers';
 import Media from './Media';
 import Academics from './Academics';
+import AthleteProgression from './AthleteProgression';
 
 const MainLayout = () => {
   return (
@@ -18,6 +19,9 @@ const MainLayout = () => {
       </div>
       <div id="player-cards">
         <PlayerCards />
+      </div>
+      <div id="athlete-progression">
+        <AthleteProgression />
       </div>
       <div id="stat-tracker">
         <StatTracker />
