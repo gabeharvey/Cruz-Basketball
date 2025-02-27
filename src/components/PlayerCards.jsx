@@ -197,7 +197,7 @@ function PlayerCards() {
       cardNumber: 7,
     },
     {
-      frontImg: "cruz-5.jpg",
+      frontImg: "cruz-9.jpg",
       name: "Cruz Cantu",
       bio: "Cruz Cantu excels in both transition offense and defense, always being in the right place at the right time.",
       funFact: "Passionate about mentoring younger players.",

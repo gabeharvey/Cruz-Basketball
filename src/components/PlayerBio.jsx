@@ -15,7 +15,7 @@ function PlayerProfile() {
   };
 
   const player = {
-    frontImg: "cruz-9.jpg",
+    frontImg: "cruz-5.jpg",
     secondImg: "mens-basketball-placeholder.png",
     name: "Player Bio", 
     bioCategories: [
