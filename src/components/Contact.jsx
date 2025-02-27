@@ -17,7 +17,7 @@ function Contact() {
       mb={16}
     >
       <Heading fontSize="4xl" fontWeight="medium" color="#FAF0E6" fontFamily="'Russo One', sans-serif">
-        Contact Us
+        Contact Cruz
       </Heading>
       
       <MotionBox
