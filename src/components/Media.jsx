@@ -10,7 +10,7 @@ function Media() {
       url: "https://news4sanantonio.com",
     },
     {
-      title: "Cruz Cantu has Clutch Performance vs Brandeis HS",
+      title: "Cruz Cantu with Clutch Performance vs Brandeis HS",
       url: "https://news4sanantonio.com",
     },
   ];
